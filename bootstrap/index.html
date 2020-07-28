@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Bootstrap Buttons</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-fluid bavbar-light bg-light">
+        <a href="#" class="navbar-brand mr-auto">Intro to Bootstrap</a>
+        <button class="nav-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNav" class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Layout</a>
+                <a href="#" class="nav-link active">Components</a>
+                <a href="#" class="nav-link">Utilities</a>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-dark text-light">
+        <div class="mx-3">
+            <h3>Buttons</h3>
+            <p>Bootstrap does a good job of making all buttons and button states visually appealing from the beginning, making it easy to fall into the flow of making a website. This page will show the basics and many customizations of bootstrap button classes.</p>
+        </div>
+        <div class="container m-md-1">
+            <div class="row">
+                <div class="col-md-6 order-1">
+                    <h4 class="mt-2">Basic Button</h4>
+                    <p>The button is set up as it normally would be in regular HTML with a tag of button. Inside the class tag you add btn and what colour you want the button to appear as.</p>
+                    <p>Below each button is listed with it's corresponding colour, with the exception of btn-light and btn-dark.</p>
+                    <p>Example: class="btn btn-danger"</p>
+                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                </div>
+                <div class="col-md-6 order-2">
+                    <h4 class="mt-2">Outlined Button</h4>
+                    <p>Similar to a regular button, the outlined button has the same basic shape but instead of the colour coding showing up as the background. It appears as the text colouring and outline.</p>
+                    <p>Below is the same ordering as before but with the addition of outline inbetween the btn-light classing.</p>
+                    <p>Example: class="btn btn-outline-danger"</p>
+                    <button type="button" class="btn btn-outline-danger">Danger</button>
+                    <button type="button" class="btn btn-outline-warning">Warning</button>
+                    <button type="button" class="btn btn-outline-success">Success</button>
+                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    <button type="button" class="btn btn-outline-info">Info</button>
+                </div>
+                <div class="col-md-6 order-3">
+                    <h4 class="mt-3">Small Buttons</h4>
+                    <p>Making more compact buttons.</p>
+                    <p>Example: class="btn btn-sm"</p>
+                    <button type="button" class="btn btn-secondary btn-sm">Sample</button>
+                    <button type="button" class="btn btn-outline-secondary btn-sm">Sample</button>
+                </div>
+                <div class="col-md-6 order-4">
+                    <h4 class="mt-3">Large Buttons</h4>
+                    <p>Making bigger buttons.</p>
+                    <p>Example: class="btn btn-lg"</p>
+                    <button type="button" class="btn btn-secondary btn-lg">Sample</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg">Sample</button>
+                </div>
+                <div class="col-12 order-5">
+                    <h4 class="mt-2">Full Width Buttons</h4>
+                    <p>This button will fill the width of the parent container. A common use for this particular one is the submit button on a form.</p>
+                    <p>Example: class="btn btn-lg btn-block"</p>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">Sample</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg btn-block">Sample</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
